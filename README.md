@@ -1,2 +1,2 @@
-# bitcoin_developer_guide
-《Bitcoin Developer Guide》中文版
+# 比特币开发者指南
+
