@@ -6,6 +6,8 @@
 
 ### 区块链总览 | Block Chain Overview
 
+![简化的比特币区块链](./en-blockchain-overview.svg)
+
 ### 工作量证明 | Proof Of Work
 
 ### 区块高度及分叉 | Block Height And Forking
