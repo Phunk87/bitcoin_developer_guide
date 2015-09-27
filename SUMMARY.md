@@ -2,5 +2,5 @@
 
 * [block chain](block_chain.md)
 * transactions
-* transactions
+* [transactions](transactions.md)
 
