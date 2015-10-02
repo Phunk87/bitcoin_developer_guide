@@ -71,6 +71,8 @@ merkle 根节点存储在区块头。每个区块同时存储着上一个区块�
 
 所有的交易，包括 coinbase 交易，都会被编码为二进制的 rawtransaction 格式存入区块。
 
+通过对 rawtransaction 格式做哈希得到了交易标识符（txid）。从这些 txids 中，通过将一个 txid 与另一个 txid 配对然后做哈希运算，最终构建了 merkle 树。如果 txids 的个数为奇数，那么没有被配对的那个 txid 将会与他自身的一个副本配对做哈希。
+
 ### 一致性规则变更 | Consensus Rule Changes
 
 ### 发现分叉 | Detecting Forks
