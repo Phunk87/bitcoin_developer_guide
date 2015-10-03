@@ -1,16 +1,21 @@
 # 比特币开发者指南 | Bitcoin Developer Guide
 
-## 当前版本
+## 当前版本 | Current Version
 
 |Name|Value|
 |---|---|
 |source|https://github.com/bitcoin-dot-org/bitcoin.org|
 |commit|[000887a2f4b67c2345ea1c91578cee44c0f90088](https://github.com/bitcoin-dot-org/bitcoin.org/commit/000887a2f4b67c2345ea1c91578cee44c0f90088)|
 
-## 译本
+## 译本 | Translation
 
 - [GitBook 地址](https://www.gitbook.com/book/0dayzh/bitcoin_developer_guide)
-- GitHub 地址
+- [GitHub 地址](https://github.com/0dayZh/bitcoin_developer_guide)
+
+## 捐献 | Donation
+
+- Bitcoin: 1EdMCu32fzGo5iNCyQuMZhHboSe2gzqQPg
+- [Amazon 心愿单](http://www.amazon.cn/registry/wishlist/QBFPXWCWVD4N)
 
 ## 简介 | Introduction
 
