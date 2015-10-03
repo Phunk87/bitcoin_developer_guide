@@ -7,12 +7,15 @@
 |source|https://github.com/bitcoin-dot-org/bitcoin.org|
 |commit|[000887a2f4b67c2345ea1c91578cee44c0f90088](https://github.com/bitcoin-dot-org/bitcoin.org/commit/000887a2f4b67c2345ea1c91578cee44c0f90088)|
 
-## 译本 | Translation
+## 关于译本 | About Translation
 
-- [GitBook 地址](https://www.gitbook.com/book/0dayzh/bitcoin_developer_guide)
-- [GitHub 地址](https://github.com/0dayZh/bitcoin_developer_guide)
+该译本的所有内容被托管在 [GitHub](https://github.com/0dayZh/bitcoin_developer_guide) 上，你可以通过 [GitBook](https://www.gitbook.com/book/0dayzh/bitcoin_developer_guide) 进行在线阅读或下载 PDF、EPUB、MOBI 的格式。
+
+如果你发现有任何的翻译出入或者文字书写错误，欢迎 fork 提 pull request，也可以提 [issues](https://github.com/0dayZh/bitcoin_developer_guide/issues) 提出对译本的建议及意见。
 
 ## 捐献 | Donation
+
+如果你觉得该译本对你有所帮助并希望做些事情作为回馈，除了为书找出修改点外，还可以为我捐赠比特币或者购买亚马逊心愿清单中的物品。
 
 - Bitcoin: 1EdMCu32fzGo5iNCyQuMZhHboSe2gzqQPg
 - [Amazon 心愿单](http://www.amazon.cn/registry/wishlist/QBFPXWCWVD4N)
