@@ -15,7 +15,7 @@
 
 ## 捐献 | Donation
 
-如果你觉得该译本对你有所帮助并希望做些事情作为回馈，除了为书找出修改点外，还可以为我捐赠比特币或者购买亚马逊心愿清单中的物品。
+如果你觉得该译本对你有所帮助并希望为我做些事情作为回馈，除了提出修改意见外，还可以捐赠比特币或者购买亚马逊心愿清单中的物品。
 
 - Bitcoin: 1EdMCu32fzGo5iNCyQuMZhHboSe2gzqQPg
 - [Amazon 心愿单](http://www.amazon.cn/registry/wishlist/QBFPXWCWVD4N)
