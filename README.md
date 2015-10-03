@@ -7,6 +7,11 @@
 |source|https://github.com/bitcoin-dot-org/bitcoin.org|
 |commit|[000887a2f4b67c2345ea1c91578cee44c0f90088](https://github.com/bitcoin-dot-org/bitcoin.org/commit/000887a2f4b67c2345ea1c91578cee44c0f90088)|
 
+## 译本
+
+- [GitBook 地址](https://www.gitbook.com/book/0dayzh/bitcoin_developer_guide)
+- GitHub 地址
+
 ## 简介 | Introduction
 
 此开发者指南旨在提供给你理解比特币的信息，让你能够开始构建以比特币为基础的应用，并不是一本[规范手册](https://bitcoin.org/en/developer-reference#not-a-specification)。为了尽可能的理解该文档，你可能需要安装最新版本的 Bitcoin Core，你可以通过[源码](https://github.com/bitcoin/bitcoin)或者[预先编译好的可执行文件](https://bitcoin.org/en/download)来获取到。
