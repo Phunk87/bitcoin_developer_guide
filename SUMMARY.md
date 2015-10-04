@@ -13,7 +13,7 @@
    * [P2SH 脚本](p2sh_scripts.md)
    * 标准交易
    * 非标准交易
-   * 签名哈希类型
+   * 签名哈希的类型
    * Locktime And Sequence Number
    * 交易手续费及变更
    * 避免 Key 重用
