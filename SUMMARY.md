@@ -10,5 +10,6 @@
    * [发现分叉](detecting_forks.md)
 * [交易](transactions.md)
    * [P2PKH 脚本验证](p2pkh_script_validation.md)
+   * P2SH 脚本
 * [合约](contracts.md)
 
