@@ -11,7 +11,7 @@
 * [交易](transactions.md)
    * [P2PKH 脚本验证](p2pkh_script_validation.md)
    * [P2SH 脚本](p2sh_scripts.md)
-   * 标准交易
+   * [标准交易](standard_transactions.md)
    * 非标准交易
    * 签名哈希的类型
    * Locktime And Sequence Number
