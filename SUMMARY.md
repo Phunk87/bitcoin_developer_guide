@@ -17,6 +17,6 @@
    * [Locktime And Sequence Number](locktime_and_sequence_number.md)
    * [交易手续费及变更](transaction_fees_and_change.md)
    * [避免 Key 重用](avoiding_key_reuse.md)
-   * 交易的可锻性
+   * [交易的可锻性](transaction_malleability.md)
 * [合约](contracts.md)
 
