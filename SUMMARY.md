@@ -15,7 +15,7 @@
    * [非标准交易](non-standard_transactions.md)
    * [签名哈希的类型](signature_hash_types.md)
    * [Locktime And Sequence Number](locktime_and_sequence_number.md)
-   * 交易手续费及变更
+   * [交易手续费及变更](transaction_fees_and_change.md)
    * 避免 Key 重用
    * 交易的可锻性
 * [合约](contracts.md)
