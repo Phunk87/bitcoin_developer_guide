@@ -13,5 +13,6 @@
    * [P2SH 脚本](p2sh_scripts.md)
    * 标准交易
    * 非标准交易
+   * 签名哈希类型
 * [合约](contracts.md)
 
