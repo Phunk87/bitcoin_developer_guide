@@ -9,6 +9,6 @@
    * [一致性规则变更](consensus_rule_changes.md)
    * [发现分叉](detecting_forks.md)
 * [交易](transactions.md)
-   * P2PKH 脚本验证
+   * [P2PKH 脚本验证](p2pkh_script_validation.md)
 * [合约](contracts.md)
 
