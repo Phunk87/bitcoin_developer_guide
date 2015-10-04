@@ -17,5 +17,6 @@
    * Locktime And Sequence Number
    * 交易手续费及变更
    * 避免 Key 重用
+   * 交易的可锻性
 * [合约](contracts.md)
 
