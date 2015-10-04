@@ -14,5 +14,6 @@
    * 标准交易
    * 非标准交易
    * 签名哈希类型
+   * Locktime And Sequence Number
 * [合约](contracts.md)
 
