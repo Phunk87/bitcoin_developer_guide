@@ -16,4 +16,3 @@
 
 
 
-### 交易可锻性 | Transaction Malleability
