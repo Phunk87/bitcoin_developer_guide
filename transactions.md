@@ -2,7 +2,7 @@
 
 
 
-### P2SH 脚本 | P2SH Scripts
+
 
 ### 标准交易 | Standard Transactions
 
