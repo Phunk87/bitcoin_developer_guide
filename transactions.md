@@ -8,7 +8,7 @@
 
 
 
-### 签名哈希类型 | Signature Hash Types
+
 
 ### Locktime And Sequence Number
 
