@@ -10,7 +10,7 @@
 
 
 
-### Locktime And Sequence Number
+
 
 ### 交易手续费及变更 | Transaction Fees And Change
 
