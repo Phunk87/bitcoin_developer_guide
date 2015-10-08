@@ -1,6 +1,6 @@
 ## 交易 | Transactions
 
-### P2PKH 脚本验证 | P2PKH Script Validation
+
 
 ### P2SH 脚本 | P2SH Scripts
 
