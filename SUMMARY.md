@@ -21,6 +21,8 @@
 * [合约](contracts.md)
 * [钱包](wallets.md)
     * [钱包程序](wallet-programs.md)
+        * [完整服务的钱包](full-service-wallets.md)
+        * 只用做签名的钱包
     * [钱包文件](wallet-files.md)
 * [支付流程](paymentprocessing.md)
 * [运作模式](运作模式.md)
