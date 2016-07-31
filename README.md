@@ -4,7 +4,7 @@
 
 | Name | Value |
 | :--- | :--- |
-| source | [https://github.com/bitcoin-dot-org/bitcoin.org|](https://github.com/bitcoin-dot-org/bitcoin.org|) |
+| source | [https://github.com/bitcoin-dot-org/bitcoin.org](https://github.com/bitcoin-dot-org/bitcoin.org|) |
 | commit | [000887a2f4b67c2345ea1c91578cee44c0f90088](https://github.com/bitcoin-dot-org/bitcoin.org/commit/000887a2f4b67c2345ea1c91578cee44c0f90088) |
 
 ## 关于译本 \| About Translation
