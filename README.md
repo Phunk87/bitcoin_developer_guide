@@ -20,7 +20,7 @@
 * Bitcoin: 1EdMCu32fzGo5iNCyQuMZhHboSe2gzqQPg
 * [Amazon 心愿单](http://www.amazon.cn/registry/wishlist/QBFPXWCWVD4N)
 
-## 进度 \| Progress
+## 进度 \| Progress (1 / 8)
 
 * [x] 区块链
     * [x] 区块链总览
@@ -30,6 +30,15 @@
     * [x] 一致性规则变更
     * [x] 发现分叉
 * [ ] 交易
+    * [ ] P2PKH 脚本验证
+    * [ ] P2SH 脚本
+    * [ ] 标准交易
+    * [ ] 非标准交易
+    * [ ] 签名哈稀的类型
+    * [ ] Locktime And Sequence Number
+    * [ ] 交易手续费及变更
+    * [ ] 避免 Key 重用
+    * [ ] 交易的可锻性
 * [ ] 合约
 * [ ] 钱包
 * [ ] 支付流程
