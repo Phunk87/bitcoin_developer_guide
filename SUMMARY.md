@@ -20,6 +20,8 @@
     * [交易的可锻性](transaction_malleability.md)
 * [合约](contracts.md)
 * [钱包](wallets.md)
+    * [钱包程序](wallet-programs.md)
+    * [钱包文件](wallet-files.md)
 * [支付流程](paymentprocessing.md)
 * [运作模式](运作模式.md)
 * [点对点网络](点对点网络.md)
