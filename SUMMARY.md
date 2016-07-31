@@ -25,7 +25,7 @@
         * [只用于签名的钱包](signing-onlywallets.md)
             * [离线钱包](offlinewallets.md)
             * [硬件钱包](hardwarewallets.md)
-        * [distributing-only\_wallets](distributing-onlywallets.md)
+        * [只用于发布的钱包](distributing-onlywallets.md)
     * [钱包文件](wallet-files.md)
 * [支付流程](paymentprocessing.md)
 * [运作模式](运作模式.md)
