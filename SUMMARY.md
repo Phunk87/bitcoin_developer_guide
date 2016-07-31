@@ -21,7 +21,7 @@
 * [合约](contracts.md)
 * [钱包](wallets.md)
 * [支付流程](paymentprocessing.md)
-* 运作模式
-* 点对点网络
-* 挖矿
+* [运作模式](运作模式.md)
+* [点对点网络](点对点网络.md)
+* [挖矿](挖矿.md)
 
