@@ -10,7 +10,7 @@
 
 当Bob想要花掉这笔支出，他在签名脚本中 提供自己的签名和完整的（序列化）的兑换脚本。点对点网络确保了全兑换脚本的hash 值和Alice 放入她的input 的是相同的。如果有初始公钥，像处理兑换脚本一样执行：兑换脚本不返回false，则让Bob花费输出。
 
-![](https://bitcoin.org/img/dev/en-unlocking-p2sh-output.svg)s
+![](https://bitcoin.org/img/dev/en-unlocking-p2sh-output.svg)
 
 兑换脚本的hash 和公钥哈希有相同的性质，所以只需要一个用来区别标准地址的小改动，兑换脚本就可以转换成标准比特币地址格式。这使得获取P2SH 样式的地址和获取 P2PKH样式的一样简单。哈希运算还会对兑换脚本中的任何公钥进行模糊处理，因此P2SH脚本获得了和P2PKH 的公钥hash一样的安全性。
 
