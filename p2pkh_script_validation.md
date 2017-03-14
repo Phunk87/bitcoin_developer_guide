@@ -8,7 +8,7 @@ Developer Guide - Bitcoin
 OP_DUP OP_HASH160 <PubkeyHash> OP_EQUALVERIFY OP_CHECKSIG
 ```
 
-交易的花费者的签名脚本会被验证，并作为脚本开头的前缀。 对于一个P2PKH 交易，签名脚本包括一个secp256k1加密算法的签名和完整的公钥，拼接成以下格式：
+交易的花费者的签名脚本会被验证，并作为脚本开头的前缀。 一个P2PKH 交易的签名脚本包括一个secp256k1加密算法的签名和完整的公钥，拼接成以下格式：
 
 ```
 <Sig> <PubKey> OP_DUP OP_HASH160 <PubkeyHash> OP_EQUALVERIFY OP_CHECKSIG
@@ -25,6 +25,7 @@ OP_DUP OP_HASH160 <PubkeyHash> OP_EQUALVERIFY OP_CHECKSIG
 * 接下来执行的运算是 OP\_ HASH160, 把堆栈头的数据进行HASH 运算，在这个例子中，对Bob 提供的公钥进行了HASH运算。
 
 * 接下来Alice 的公钥脚本把Bob在第一笔交易中给他的公钥Hash 压入栈。这时候，已经有了两份Bob 的公钥Hash放置在堆栈的头部。
+
 * 有趣的部分：Alice 的公钥脚本执行 OP\_EQUALVERIFY. OP\_EQUALVERIFY 等价于执行OP\_VERIFY\(未展示\) 后执行 OP\_EQUAL.
 
 OP\_EQUAL \(未展示\)计算堆栈头部的前两个值，在这个例子中，检测了 从Bob 提供的全 公钥生成的公钥Hash 是否和Alice提供的在第一次交易中生成的公钥hash一致。OP\_EQUAL 出栈头部的两个值，压入计算结果：0 （否）和 1（真）。
