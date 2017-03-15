@@ -56,7 +56,26 @@ Pubkey script: <pubkey> OP_CHECKSIG
 Signature script: <sig>
 ```
 
-#### 空数据\|Null Data
+#### Null数据\|Null Data
+
+在Bitcion Core 0.9.0 和之后版本，可以把任意数据增加到可验证的不可支出公钥。因此当使用该版本的默认设置来传播和挖掘 的Null数据交易类型，不会被全节点存储在UTXO集上。因为Null数据交易类型在TUXO集中不能被自动修剪，这种交易类型适用于UTXO数据库膨胀的场景。然而，如果可以，更好的选择是把数据储存在交易信息之外。
+
+如果null 数据交易符合一致性共识的其他部分，比如没有大于520 Bytes 的提交 数据，一致性共识允许null data的公钥脚本的大小最多10000bytes.
+
+Bitcoin Core 0.9.x 到0.10.0 版本将会默认设置中转和打包null data 交易类型，支持单次提交数据多达40bytes和一个收入为0聪的交易结果。
+
+```
+Pubkey Script: OP_RETURN <0 to 40 bytes of data>
+(Null data scripts cannot be spent, so there's no signature script.)
+```
+
+Bitcoin Core 0.11.x将默认值增加到80字节，其他规则保持不变。
+
+只要不超过总字节限制，Bitcoin Core 0.12.0 默认支持最多83个字节，任意数量的数据推送的null 数据交易。必须仍然只有一个空数据输出和0聪的交易。
+
+Bitcion Core 的 `-datacarriersize`配置选项允许设置最大体积来限制Null数据交易的广播和打包。
+
+
 
 
 
