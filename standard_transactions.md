@@ -49,7 +49,7 @@ Signature script: OP_0 <A sig> <C sig> <redeemScript>
 
 #### 公钥\|Pubkey
 
-公钥支付（Pubkey Output）是一个[P2PKH 公钥脚本](https://bitcoin.org/en/glossary/p2pkh-address)的简化形式，但是安全性不及P2PKH，大部分新交易已经再不适用这种方式了。
+公钥输出是一个[P2PKH 公钥脚本](https://bitcoin.org/en/glossary/p2pkh-address)的简化形式，但是安全性不及P2PKH，大部分新交易已经再不适用这种方式了。
 
 ```
 Pubkey script: <pubkey> OP_CHECKSIG
@@ -74,8 +74,4 @@ Bitcoin Core 0.11.x将默认值增加到80字节，其他规则保持不变。
 只要不超过总字节限制，Bitcoin Core 0.12.0 默认支持最多83个字节，任意数量的数据推送的null 数据交易。必须仍然只有一个空数据输出和0聪的交易。
 
 Bitcion Core 的 `-datacarriersize`配置选项允许设置最大体积来限制Null数据交易的广播和打包。
-
-
-
-
 
