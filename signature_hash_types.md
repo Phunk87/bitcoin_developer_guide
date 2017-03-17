@@ -10,13 +10,11 @@
 
 * [`SIGHASH_SINGLE`](https://bitcoin.org/en/glossary/sighash-single)  只签署一个和input 对应的输出（输出有和i输入有相同的输出索引（output index））确保没人可以改变签名人所属的交易部分， 交易的其余部分都是可以更改的。对应的签名输出必须存在或者值为1来绕过比特币的安全策略。使用这种方法签名的input 和其他input 都包括在签名中，但其他input 的序列号不包括在签名中，可以更新。
 
-
-
 以上三种基础签名哈希类型可以结合 [`SIGHASH_ANYONECANPAY`](https://bitcoin.org/en/glossary/sighash-anyonecanpay) flag 创造三种新的类型：
 
 * [`SIGHASH_ALL|SIGHASH_ANYONECANPAY`](https://bitcoin.org/en/glossary/sighash-anyonecanpay) 签名所有output 和一个input，并且允许任何人添加和删除其他输入和输出。所以每个人可以贡献自己比特币放入到交易中，但是不能改变已经签名的部分的交易 的流向的数量。
 
 * [`SIGHASH_NONE|SIGHASH_ANYONECANPAY`](https://bitcoin.org/en/glossary/sighash-anyonecanpay) 只签名自己
 
-
+fsdaafdssdffadsdasfsadadsf
 
