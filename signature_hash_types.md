@@ -14,7 +14,11 @@
 
 * [`SIGHASH_ALL|SIGHASH_ANYONECANPAY`](https://bitcoin.org/en/glossary/sighash-anyonecanpay) 签名所有output 和一个input，并且允许任何人添加和删除其他输入和输出。所以每个人可以贡献自己比特币放入到交易中，但是不能改变已经签名的部分的交易 的流向的数量。
 
-* [`SIGHASH_NONE|SIGHASH_ANYONECANPAY`](https://bitcoin.org/en/glossary/sighash-anyonecanpay) 只签名自己
+* [`SIGHASH_NONE|SIGHASH_ANYONECANPAY`](https://bitcoin.org/en/glossary/sighash-anyonecanpay) 只签名自己的input，允许其他人修改其他输入和输出，所以，得到这个签名的人，可以任意的花掉这笔input。
 
-fsdaafdssdffadsdasfsadadsf
+* [`SIGHASH_SINGLE|SIGHASH_ANYONECANPAY`](https://bitcoin.org/en/glossary/sighash-anyonecanpay) 签名一个input和对应的output，允许其他人增加或者删除其他input。
+
+因为每个input都可单独签名，所以，当这些签名保护了交易的不同部分时，一个多个input 的交易可以有多个签名类型。例如，一个只有一个input 的交易签名为[`SIGHASH_NONE`](#)，所以，交易的output可以被矿工修改并被打包。对比来看，一个有两个input 的交易，一个签名为[`SIGHASH_NONE`](#) 另一个签名为[`SIGHASH_ALL`](#) ，all 的签名者可以不经None 的同意，花掉这笔钱，但是其他人不可以。
+
+
 
