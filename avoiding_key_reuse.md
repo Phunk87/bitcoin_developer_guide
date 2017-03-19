@@ -15,5 +15,3 @@
 
 处于安全性和金融隐私的原因，强烈建议开发应用时，避免重用公钥。并且尽可能的阻止用户使用重用地址。如果您的应用程序需要提供一个固定的付款URI，请参阅下面的[`bitcoin:` URI section](https://bitcoin.org/en/developer-guide#bitcoin-uri) 部分。
 
-阿斯蒂芬
-
