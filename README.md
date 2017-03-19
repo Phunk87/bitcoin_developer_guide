@@ -35,9 +35,9 @@
   * [x] 标准交易
   * [x] 非标准交易
   * [x] 签名哈稀的类型
-  * [ ] Locktime And Sequence Number
-  * [ ] 交易手续费及变更
-  * [ ] 避免 Key 重用
+  * [x] Locktime And Sequence Number
+  * [x] 交易手续费及变更
+  * [x] 避免 公钥和私钥重用
   * [ ] 交易的可锻性
 * [ ] 合约
   * [ ] 托管和仲裁
