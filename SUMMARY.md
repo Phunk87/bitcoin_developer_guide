@@ -42,5 +42,5 @@
 * [运作模式](运作模式.md)
 * [点对点网络](点对点网络.md)
 * [挖矿](挖矿.md)
-* [术语对照表](zhu-yu-dui-zhao-biao.md)
+* CoinJoin
 
