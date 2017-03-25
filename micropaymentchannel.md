@@ -1,6 +1,4 @@
-### 微支付渠道 \| Micropayment Channel
-
-
+### 微支付通道 \| Micropayment Channel
 
 
 

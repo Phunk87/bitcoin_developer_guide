@@ -20,7 +20,7 @@
   * [交易的延展性](transaction_malleability.md)
 * [合约](contracts.md)
   * [托管和仲裁](escrowandarbitration.md)
-  * [微支付频道](micropaymentchannel.md)
+  * [微支付通道](micropaymentchannel.md)
   * [CoinJoin](coinjoin.md)
 * [钱包](wallets.md)
   * [钱包程序](wallet-programs.md)
